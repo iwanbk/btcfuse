@@ -13,10 +13,14 @@ libc = "0.2"
 governor = "0.6"
 tracing = "0.1"
 tokio = { version = "1", features = ["time"] }
+moka = { version = "0.12", features = ["sync"] }
+sled = "0.34"
+bincode = "1"
 
 [dev-dependencies]
 mockito = "1"
 tokio = { version = "1", features = ["rt", "macros", "time"] }
+tempfile = "3"
 
 [lints.clippy]
 pedantic = "warn"
