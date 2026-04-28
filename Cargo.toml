@@ -13,6 +13,12 @@ libc = "0.2"
 governor = "0.6"
 tracing = "0.1"
 tokio = { version = "1", features = ["time"] }
+fuser = "0.14"
+clap = { version = "4", features = ["derive", "env"] }
+toml = "0.8"
+tracing-subscriber = "0.3"
+moka = { version = "0.12", features = ["sync"] }
+sled = "0.34"
 
 [dev-dependencies]
 mockito = "1"
